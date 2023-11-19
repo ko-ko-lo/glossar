@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Glossar - Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,400;0,6..12,700;1,6..12,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+</head>
+<body id="home">
+
+    <div class="background">
+        <div class="grid-container">
+            <header><a href="./index.html">LOG7-CONSULT</a> <span class="gruen">&#x2502</span> Glossar</header>
+
+            <p class="suche">suche</p>
+            <form id="suchFormular">
+                <input type="text" id="suchBegriffEingabe" placeholder="Geben Sie einen Suchbegriff ein" title="Geben Sie einen Suchbegriff ein">
+                <button type="submit">&#8594;</button>
+            </form>
+            <p id="meldung" class="versteckt">Es wurde leider kein passendes Suchergebnis gefunden.</p>
+
+        </div>
+    </div>
+
+    <main>
+        <div class="grid-container">
+            <h1>Willkommen bei unserem Glossar</h1>
+            <p class="intro">Tauchen Sie ein in unser umfangreiches Glossar. Entdecken Sie präzise Erklärungen zu Fachbegriffen und erweitern Sie Ihr Wissen. Am besten nutzen Sie dazu die Suchfunktion. Viel Spaß!</p>
+
+            <h2>Neu erstellte Facherklärungen</h2>
+        </div>
+
+        <div class="grid-container-3">
+            <a href="./qualitative-research.html"><div class="empfehlung medium">Qualitative <br />Research</div></a>
+            <a href="./quantitative-research.html"><div class="empfehlung small">Quantitative <br />Research</div></a>
+            <a href="./user-experience.html"><div class="empfehlung big">User <br />Experience</div></a>
+
+            <a href="./qualitative-research.html" class="medium-link">5.7.2023 &#8594</a>
+            <a href="./quantitative-research.html" class="small-link">4.7.2023 &#8594</a>
+            <a href="./user-experience.html">3.7.2023 &#8594</a>
+        </div>
+
+        <div class="grid-container-3">
+            <a href="./user-interface.html"><div class="empfehlung big">User <br />Interface</div></a>
+            <a href="./usability-testing.html"><div class="empfehlung small">Usability <br />Testing</div></a>
+            <div></div>
+
+            <a href="./user-interface.html">2.7.2023 &#8594</a>
+            <a href="./usability-testing.html" class="small-link">1.7.2023 &#8594</a>
+            <div></div>
+        </div>
+
+    </main>
+
+    <footer class="grid-container-2">
+        <div id="letzte-speicherung"></div>
+        <div class="text-right">Erstellt mit <span class="herz">&#x2665;</span></div>
+    </footer>
+
+    <script src="./suche.js"></script>
+    <script src="./letzte_speicherung.js"></script>
+
+</body>
+</html>
